@@ -1,0 +1,21 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 1000px; margin: auto;}
+
+/*header*/
+header {height: 125px; background: #535c68; overflow: hidden;}
+header .kiri img {width: 100px; height: 100px; margin: 15px 0 0 35px; float: left;} 
+header .kanan {float: left; font-size: 20px; color: white; margin: 15px 0 0 90px;}
+
+/*menu*/
+menu {height: 45px; background-color: #c7ecee; margin-bottom: 20px;}
+menu ul li {text-decoration: none; padding:0px 25px; list-style: none; 
+	float: left; border-right: 1px solid purple; line-height: 45px;}
+menu li:hover {background: #90CCB8; color: white;}
+menu li a {text-decoration: none; margin-left: 10px;}
+menu li a:hover {background: #90CCB8; color: white;}
+
+/*footer*/
+footer {background-color: #b71540; color: white; text-align: center; font-size: 15px;
+	line-height: 40px; height: 40px; margin-top: 25px;}
+footer a {color: white;}

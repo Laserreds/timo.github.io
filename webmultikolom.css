@@ -1,0 +1,142 @@
+* {padding: 0; margin: 0;}
+
+.container {width: 1000px; margin: auto;}
+
+/*header*/
+header {height: 125px; background: #535c68; overflow: hidden;}
+header .kiri img {width: 100px; height: 100px; margin: 15px 0 0 35px; float: left;} 
+header .kanan {float: left; font-size: 20px; color: white; margin: 15px 0 0 90px;}
+header .kanan p {margin-left: 0;}
+header .kanan h2 {margin-left: 0;}
+
+/*menu*/
+menu {height: 45px; background-color: #c7ecee; margin-bottom: 20px;}
+menu ul li {text-decoration: none; list-style: none; 
+	float: left; border-right: 1px solid purple; line-height: 45px;}
+menu li:hover {background: #90CCB8; color: white;}
+menu li a {text-decoration: none; margin-left: 10px;}
+menu li a:hover {background: #90CCB8; color: white;}
+
+/*article*/
+article {overflow: hidden;}
+article h1 {margin-bottom: 10px; font-size: 30px; font-family: gambria;}
+article p {text-align: justify; margin-bottom: 15px;}
+	article .kiri {width: 300px; float: left;}
+	article .kiri h1 {margin-top: 20px;}
+		article .kiri .kiritengah {background: #535c68; padding: 15px;}
+			article .kiri .kiritengah h1 {color: white; margin-top: -5px;}
+			article .kiri .kiritengah img {width: 45px; padding: 0 20px 0 0; }
+			article .kiri .kiritengah img:hover {width: 52px;}	
+	article .kanan {width: 650px; float: right;} 
+		article .kanan .atas img {width: 650px; height: 340px;}
+		article .kanan .atas p {margin-top: 20px;}
+		article .kanan .bawah {overflow: hidden; margin-top: 25px;}
+		article .kanan .bawah h1,p {margin-left: 12px;}
+			article .kanan .bawah .kiribawah {width: 315px; float: left; border-left: 4px solid red;}
+			article .kanan .bawah .kiribawah p {font-size: 10px;}
+			article .kanan .bawah .kananbawah {width: 315px; float:right; border-left: 4px solid red;}
+			article .kanan .bawah .kananbawah img {width: 35px; padding: 0 5px 0 0; margin-left: 12px; }
+			article .kanan .bawah .kananbawah img:hover {width: 42px;}
+
+/*footer*/
+footer {background-color: #b71540; color: white; text-align: center; font-size: 15px;
+	line-height: 40px; height: 40px; margin-top: 25px;}
+footer a {color: white;}
+
+/*tugas*/
+header img {clip-path: circle(50%)}
+
+article .kanan .atas img {-webkit-mask-image: radial-gradient(circle at 20%, 
+black 20%, rgba(0, 0, 0, 0.4) 26%);}
+
+article .kiri iframe {height: 200px; margin-top: 20px;}
+
+.kel .pisah1 {float: left; width: 300px; margin: 30px 20px 50px 0;}
+.kel .pisah {float: left; width: 300px; margin: 20px; margin-top: 30px; margin-bottom: 50px;}
+.kel .pisah1 img {width: 150px; float: left;margin-right: 10px;}
+.kel .pisah img {width: 150px; float: left; margin-right: 10px;}
+
+article .kiri .kiritengah {position: fixed; left: 20px; bottom: 40px;}
+
+footer {position: fixed; bottom: 0; width: 1000px;}
+
+
+menu ul li {float: left; list-style: none;
+	background: #c7ecee;}
+menu ul li a {margin-right: 15px;
+	text-decoration: none;
+		padding: 3px 15px;}
+menu ul li ul {display: none;}
+menu ul li:hover>ul {display: block;}
+menu {position: sticky;
+	top: 0px; 
+	z-index: 1;
+	background: #c7ecee;
+	height: 45px;
+	line-height: 45px;}
+
+menu ul li ul {position: absolute;}
+menu ul li ul li {float: none;
+	position: relative;}
+
+menu ul li:hover {background: #90CCB8;}
+menu ul li a:hover {color: white;}
+menu ul ul ul {left: 100%; 
+	top: 0; }
+
+/*quiz*/	
+
+.itemform {background: #9D9393; padding: 15px; 
+	border: 1px solid black; overflow: hidden; margin-top: 20px;}
+.itemform .form1 {float: left; margin-right: 30px;}
+.itemform .form1 label {display: block; line-height: 30px;}
+
+.itemform .form2 input {margin: 2px; line-height: 26px; width: 350px; }
+.itemform .form2 input.inputText {padding: 0 0 0 10px;}
+.itemform .form2 input.inputText:hover {background-color: #C3A2C0; 
+	border-radius: 5px; font-size: 15px; border: 1px solid red;}
+
+.tool {position: relative;}
+.tool .tips {display: inline;}
+.tool .tips span {display: none;}
+.tips:hover span {display: inline-block; background-color: black; 
+	color: white; padding: 10px; font-size: 12px;}
+
+input[type=password] {padding: 8px; margin-left: 10px; 
+	background-color: #b71540; color: white;}
+
+input[type=submit], button[type=button] {padding: 8px;}
+
+input[type=submit]:hover, button[type=button]:hover {color: white;
+	background-color: black; position: fixed;}
+
+.tool button:hover {transition: background 2s ease-in-out;}
+
+input[type=submit]:hover span {position: fixed;}
+
+
+table {font-family: "Arial"; margin-top: 10px; width: 1000px; margin-top: 20px;}
+
+caption {background-color: #535c68; color: white; font-size: 26px;
+	padding: 10px; margin-top: 20px;}
+
+th, td {padding: 5px 25px; }
+
+thead {background-color: #c7ecee; color: blue;}
+tbody {background-color: silver;}
+td {color: blue;}
+tfoot {background-color: #b71540; color: white;}
+
+tbody tr td:nth-child(2) {
+	text-align: center;
+}
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4) {
+	text-align: right;
+}
+
+tr:nth-child(even) {background-color: white;}
+
+.profile img {width: 315px;}
+
+.tool {margin-top: 25px;}
